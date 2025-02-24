@@ -9,10 +9,10 @@ public class Main {
         String bGender = sc.next();
 
         if(aAge < 19 && bAge <19) {
-                System.out.print("0");
+            System.out.print("0");
         }
         else {
-            if (aGender=="W" && bGender=="w")
+            if (aGender.equals("W") && bGender.equals("W"))
                 System.out.print("0");
             else 
                 System.out.print("1");
