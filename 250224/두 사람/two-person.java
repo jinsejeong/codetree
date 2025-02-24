@@ -14,6 +14,10 @@ public class Main {
         else {
             if (aGender.equals("W") && bGender.equals("W"))
                 System.out.print("0");
+            else if (aGender.equals("W") && bGender.equals("M"))
+                System.out.print("1");
+            else if (aGender.equals("M") && bGender.equals("W"))
+                System.out.print("1");
             else 
                 System.out.print("1");
         }
